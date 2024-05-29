@@ -7,7 +7,7 @@ from numpy import ndarray, add, subtract, multiply, divide, power, concatenate, 
 import pandas as pd
 
 class Bond():
-    """resembles a bond"""
+    """models a bond"""
 
     def __init__(self,
                  issuance_date: str, # yyyy-mm-dd
